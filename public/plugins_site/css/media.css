@@ -1,0 +1,167 @@
+@media (max-width: 991px) {
+    .header_banner-content-txt-title {
+        font-size: 108px;
+    }
+
+    .form-header-content-figure {
+        width: 90px;
+        margin: 0 0 10px 0 !important;
+    }
+    
+    .content__home__header{
+        flex-direction: column;
+    }
+    
+    .content__home__form__confirm-item-img img {
+        width: 230px;
+        height: 230px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .header_banner-content-txt-title {
+        font-size: 75px;
+    }
+
+    .header-row .w-100{
+        width: auto !important;
+    }
+    
+    .modal-dialog {
+        max-width: 80%;
+    }
+
+    .content__home__header_h5 {
+        font-size: 20px !important;
+    }
+    
+    .appl {
+        padding: 0 15px;
+        font-size: 15px;
+    }
+    
+    .conatcts__mainBox-map{
+        height: 300px;
+    }
+    
+    .conatcts__mainBox-map iframe{
+        height: 100% !important;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .modal-dialog {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 475px) {
+    .header_banner-content-txt-title {
+        font-size: 65px;
+    }
+
+    .main_news-box .owl-stage-outer {
+        padding: 15px !important;
+    }
+    
+    .modal-dialog {
+        max-width: 95%;
+    }
+    
+    .pay_btns-div{
+        flex-direction: column;
+    }
+    
+    .btn-large {
+        width: 220px;
+    }
+    
+    .pay_btns a{
+        margin: 0 auto;
+    }
+    
+    .pay_btns a+a {
+        margin-left: auto;
+        margin-top: 25px;
+    }
+    
+    .header_banner-content-txt-title {
+        background-image: url('../../plugins_site/images/usa.webp');
+    }
+    
+    .text_h1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .text-content img{
+        width: 35%;
+        height: auto;
+    }
+}
+
+
+
+@media (max-width: 450px) {
+    .form-header {
+        padding: 0;
+        border-bottom: none;
+    }
+    
+    tr {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 414px) {
+    .header_banner-content-txt-title {
+        font-size: 60px;
+        margin-bottom: 0;
+    }
+
+    .custom-dots-style-1 .owl-dots, .custom-dots-style-2 .owl-dots {
+        margin-top: 15px !important;
+    }
+
+    .main_news-box {
+        padding: 20px 0;
+    }
+
+    .paddingClass-100 {
+        padding: 80px 0;
+    }
+
+    #footer {
+        margin-top: 20px;
+    }
+
+    .timer__clock {
+        width: 60px;
+        height: 60px;
+    }
+
+    .timer__clock span {
+        font-size: 23px;
+    }
+
+    .timer__clock:after {
+        font-size: 12px;
+    }
+
+    .form-header-content-txt-h1 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    #razd {
+        font-size: 2em;
+    }
+    
+    .appl {
+        padding: 0px 9px;
+        font-size: 14px;
+        height: 40px;
+    }
+}

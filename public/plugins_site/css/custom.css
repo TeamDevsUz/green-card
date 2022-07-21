@@ -1,0 +1,794 @@
+*{
+    text-decoration: none !important;
+}
+
+.btn-anketa{
+    background: #f04c23 !important;
+    color: #fff !important;
+}
+.lang {
+    border: 1px solid #bdc1d6;
+    border-radius: 20px;
+    margin-left: 27px;
+    position: relative;
+}
+
+.lang__currrent {
+    height: 32px;
+    padding-left: 12px;
+    padding-right: 2px;
+    color: #f04c23;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.lang__currrent span {
+    font-size: 14px;
+    line-height: 1;
+}
+
+.lang__currrent div {
+    width: 29px;
+    height: 29px;
+    background-color: #f04c23;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 7px;
+}
+
+.lang__currrent i {
+    color: #fff;
+    font-size: 16px;
+}
+
+.lang__list {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-30px);
+    position: absolute;
+    right: 0;
+    top: 45px;
+    border-radius: 20px;
+    background-color: #fff;
+    min-width: 100%;
+    box-shadow: 0 4px 4px 0 #dddddd40;
+    padding: 3px 0;
+    transition: 0.2s;
+    z-index: 10;
+}
+
+.lang__list a {
+    display: block;
+    color: #122052;
+    font-weight: 500;
+    padding: 5px 14px;
+    transition: 0.2s;
+    font-size: 14px;
+}
+
+.lang__list a:hover {
+    color: #fa0a0a;
+}
+
+.lang__list.active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.lang__triangle {
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #fff;
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    right: 6px;
+    top: 0;
+    transform: translateY(-7px);
+}
+
+.medium-18 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #000;
+}
+
+.regular-16 {
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.color-icon1{
+    color: #FF5353;
+}
+
+.color-icon2{
+    color: #5E44FF;
+}
+.color-icon3{
+    color: #1BD9A0;
+}
+
+.paddingClass-100{
+    padding: 100px 0;
+}
+.paddingClass-50{
+    padding: 50px 0;
+}
+
+
+.bootstrap-datetimepicker-widget table td.disabled{
+    background: #d9edf7 !important;
+    color: #777 !important;
+}
+
+.bootstrap-datetimepicker-widget table td span.disabled, .bootstrap-datetimepicker-widget table td span.disabled:hover {
+    background: #d9edf7 !important;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////*/
+/************************* Home page start ****************************************/
+
+.header_banner-img{
+    background: url('../images/city-desktop.webp') center center / cover;
+    height: 90vh;
+    object-fit: cover;
+    background-blend-mode: multiply;
+}
+
+.header_banner-content-txt-title {
+    font-size: 131px;
+    font-weight: 900;
+    text-align: center;
+    background-image: url('../../plugins_site/images/useFlag-gif.gif');
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    line-height: 120px;
+}
+
+
+.header_banner-content-txt-desc p{
+    font-size: 16px;
+    color: #ffff !important;
+}
+
+.header_banner-content-txt-btn{
+    padding: 0 24px;
+    color: #fff;
+    background: #27b077;
+    height: 50px;
+    border: 2px solid transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: 87px;
+    font-size: 18px;
+    opacity: 1;
+    width: max-content;
+    margin: 0 auto;
+    transition: .3s ease;
+}
+.header_banner-content-txt-btn:hover{
+    background: transparent;
+    border: 2px solid #27b077 !important;
+    color: #fff !important;
+}
+
+.header_banner-box-item{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 4px 4px 30px rgb(105 103 119 / 30%);
+    color: #242629;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px 20px;
+    transition: box-shadow .3s;
+    height: 100%;
+}
+
+.header_banner-box-item i{
+    font-size: 32px;
+}
+/**********************************************************************************************************************/
+/*************************** ***************** ************** ***************** *************** ************/
+.main__greenCard-mean-content p{
+    font-size: 17px;
+    margin: 0;
+    color: #000;
+}
+
+.main__greenCard-mean-content p+p {
+    margin-top: 12px;
+}
+
+.main__greenCard-mean .header_banner-content-txt-btn:hover{
+    color: #27b077 !important;
+}
+
+/******************************************************************************************************************/
+/******************************** main_greenCard-box start ***************************************/
+.main_greenCard-box{
+    background: #3e60d7 url('../../plugins_site/images/main_greenCard.jpg') center center;
+    padding: 36px 0;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+.main_greenCard-box-item-h2{
+    font-size: 23px;
+    margin: 0 0 20px;
+    font-weight: 700;
+    color: #ffff;
+}
+/***************************************************************************************************************/
+/****************** main_news-box start *********************************/
+.main_news-box{
+    background: #f7f7f7;
+    padding: 50px 0;
+}
+.main_news-box .card, .news__mainBox .card{
+    transition: all 300ms ease-in-out 0s;
+    border-radius: 5px !important;
+}
+.main_news-box .card:hover, .news__mainBox .card:hover{
+    transform: scale(1.02) translate(0px, -8px);
+    transition: all 300ms ease-in-out 0s;
+    box-shadow: rgb(0 0 0 / 30%) 0px 0px 9px 3px;
+    cursor: pointer;
+}
+
+.main_news-box .owl-stage-outer{
+    padding: 15px 0 !important;
+}
+/******************************************************************************************************************/
+/*************************** main_faq-box start**************************/
+
+.main_faq-box-h2{
+    font-size: 24px;
+    color: #000;
+    width: 100%;
+    margin: 0 0 30px 0;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.toggle > .toggle-content > p {
+    margin-bottom: 0;
+    padding: 15px;
+    background: #eef0f4;
+}
+
+/*****************************************************************************************************************/
+/****************************************** Registration page start ***********************************/
+.header-registration-box{
+    min-height: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 20px 0 rgb(0 0 0 / 15%);
+}
+
+.form-header{
+    padding: 20px;
+    border-bottom: #d4d4d4 solid 1px;
+}
+
+.form-header-content-figure{
+    width: 70px;
+    margin: 0 10px 0 0 !important;
+}
+
+.form-header-content-txt-h1{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+
+
+.timer__clock{
+    padding: 5px;
+    width: 87px;
+    height: 60px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 5px 13px 0px rgb(31 38 135 / 37%);
+    background: rgba(255,255,255,0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.25);
+}
+
+.timer__clock span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+.timer__clock:after{
+    content: attr(title);
+    position: absolute;
+    bottom: -24px;
+    left: 0;
+    color: #f04c23;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#razd {
+    float: left;
+    opacity: 1;
+    color: #000;
+    font-weight: bold;
+    font-size: 3em;
+    margin: 0px 3px 0px 3px;
+}
+
+.block-header {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 7px 0 7px 15px;
+    margin-bottom: 10px;
+    color: #273958;
+    font-size: 0.875em;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    background-color: #e0e9f4;
+}
+
+
+.form-group label{
+    font-size: 14px;
+    color: #00214e!important;
+    margin-bottom: 0 !important;
+    font-weight: 700;
+    text-transform: uppercase !important;
+}
+
+html .form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem !important;
+    font-weight: 400;
+    line-height: 1.5 !important;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem !important;
+    box-shadow: inset 0 0 0 transparent;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.subheader {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-bottom: 15px;
+    color: #111;
+    font-size: 14px;
+    line-height: 2.3em;
+    border-bottom: #D4D4D4 solid 1px;
+}
+
+.pressed {
+    border: 2px solid #f04c23;
+    color: #f04c23; 
+}
+.content__home__form  p {
+    margin-top: 0;
+    width: 30%;
+    display: block;
+}
+
+.content__home__form  p:nth-child(2){
+    margin-left: 20px;
+}
+
+[type="radio"]:not(:checked), [type="radio"]:checked {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.content__home__form  p input[type=radio]+span {
+    border: 2px solid #c2d1e2!important;
+    border-radius: 3px;
+    height: 40px;
+    padding: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: SFUI__BOLD;
+    color: #c2d1e2;
+}
+
+.content__home__form  p input[type=radio]:checked+span {
+    border-color: #f04c23 !important;
+    color: #f04c23!important;
+}
+
+.content__home__form p input[type=radio]+span img {
+    width: 12px;
+    margin: 0 5px;
+}
+
+
+.content__home__form .gender span:hover{
+    cursor: pointer;
+}
+
+.submit_btn{
+    background: #f04c23;
+    border: 1px solid #f04c23 !important;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+    cursor: default;
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.avatar__image{
+    width: 185px;
+    height: 185px;
+    margin-bottom: 15px;
+    text-align: center;
+    border: #d9d9d9 solid 1px;
+    -webkit-box-shadow: 0 1px 7px 0 rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 10%);
+    margin: 0 auto;
+}
+
+.avatar__image img{
+    width: 100%;
+    height: 100%;
+}
+
+form .avatar__button {
+    width: 100%;
+    margin-top: 10px;
+    background: #0e65e5;
+    border-radius: 4px !important; 
+    font-size: 13px;
+    color: #fff;
+    font-weight: 500 !important;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+}
+form .avatar__button:hover{
+    color: #fff;
+}
+form  .avatar__button img {
+    margin-right: 8px;
+}
+
+.content-txt-info-title{
+    font-size: 16px;
+}
+
+.content-txt-info{
+    font-size: 14px;
+}
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 1.75rem auto;
+}
+
+.modal-body label {
+    width: 100% !important;
+}
+
+.modal-body p {
+    width: 45% !important;
+}
+
+.form-group .iconButton {
+    position: absolute;
+    top: 3px;
+    right: 45px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: #f04c23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 13px;
+}
+
+.form-group .iconButton:last-child{
+    right: 12px;
+    font-size: 16px;
+}
+
+.childAddBox .iconButton {
+    right: 12px !important;
+}
+
+
+.error {
+    background-color: #FCE3E9 !important;
+    color: #a94442 !important;
+    border: solid 1px #9B0000 !important;
+}
+
+.gender-btns-input span{
+    border: 2px solid #c2d1e2;
+    border-radius: 3px;
+    height: 40px;
+    padding: 5px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: SFUI__BOLD;
+    color: #c2d1e2;
+    width: 140px;
+    cursor: pointer;
+}
+
+.gender-btns-input span img{
+    margin-right: 10px;
+}
+
+.gender-btns-input .child_female{
+    margin-left: 20px !important;
+}
+
+.gender_active {
+    border-color: #f04c23 !important;
+    color: #f04c23!important;
+}
+/* ********************************************************************** */
+/* //////////////////////// registerReceipt page start ////////////////////// */
+.appl {
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    background: #27b077;
+    border: 2px solid transparent !important;
+    outline: none!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    border-radius: 87px;
+    font-size: 18px;
+    opacity: 1;
+    transition: .3s ease;
+}
+
+.appl:hover{
+    background: #ffff !important;
+    color: #27b077;
+    border: 2px solid #27b077 !important;
+}
+
+.blue {
+    background-color: #2196F3 !important;
+    transition: .3s ease;
+}
+.blue:hover{
+    background-color: #ffff !important;
+    border: 2px solid #2196F3 !important;
+    color: #2196F3 !important;
+}
+.appl i, .appl img {
+    margin-right: 12px;
+}
+
+.content__home__header_h5{
+    font-size: 24px !important;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.content__home__form__confirm-item{
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 20px 0 rgb(0 0 0 / 15%);
+    margin-bottom: 24px;
+}
+
+.content__home__form__confirm-item h4 {
+    margin: 0 0 15px;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.content__home__form__confirm table {
+    text-transform: uppercase;
+}
+
+table {
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.content__home__form__confirm table tr td {
+    padding: 5px;
+    font-weight: 600;
+}
+
+tr {
+    border-bottom: 1px solid rgba(0,0,0,0.12); 
+}
+
+.content__home__form__confirm-item-img{
+    height: 100%;
+}
+
+.content__home__form__confirm-item-img img {
+    max-width: 100%;
+    width: 70%;
+    height: 70%;
+    margin-left: auto;
+    display: flex;
+}
+/* //////////////////////// registerReceipt page end ////////////////////// */
+/* **************************************************************************** */
+/* /////////////////////// CompleteRegidtr page start ///////////////////////// */
+.content__home__form__confirmed-p{
+    font-size: 18px;
+    color: #000;
+}
+
+.pay_btns a {
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    border-radius: 6px!important;
+    outline: none!important;
+    border: 1px solid #a7a7a7!important;
+    background-color: #fff!important;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.btn-large {
+    height: 54px;
+    line-height: 54px;
+    font-size: 15px;
+    padding: 0 28px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    letter-spacing: .5px;
+}
+
+.pay_btns a img {
+    width: 150px;
+    margin: 0!important;
+}
+
+.pay_btns a+a {
+    margin-left: 24px;
+}
+/* /////////////////////// CompleteRegidtr page end ///////////////////////// */
+/* ************************************************************************** */
+/* /////////////////////// Services page start /////////////////////////////// */
+
+.services__mainBox{
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 20px 0 rgb(0 0 0 / 15%);
+    -moz-box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 3px 20px 0 rgb(0 0 0 / 15%);
+}
+
+.text_h1{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.text-content p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+}
+
+
+/* /////////////////////// Services page end ///////////////////////////////// */
+.news__mainBox, .conatcts__mainBox, .information__mainBox{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 20px 0 rgb(0 0 0 / 15%);
+    -moz-box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 3px 20px 0 rgb(0 0 0 / 15%);
+}
+
+.headerline {
+    position: relative;
+    width: 560px;
+    height: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    color: #4e5364;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.3em;
+    border-bottom: #d4d4d4 solid 1px;
+}
+
+.information__mainBox-content-h3{
+    font-size: 1em;
+    margin: 15px 0 10px 0;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
